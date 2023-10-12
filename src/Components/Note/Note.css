@@ -1,0 +1,30 @@
+.note{
+    padding: 10px 15px;
+    height: 280px;
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    background-color: violet;
+    border-radius: 30px;
+}
+.note_text{
+    flex: 1;
+    resize: none;
+    background: transparent;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+.two-icon{
+    display: flex;
+  justify-content: space-between;
+    align-items: center;
+}
+.two-icon svg{
+    font-size: 23px;
+    opacity: 0;
+}
+.note:hover .two-icon svg{
+    opacity: 1;
+}
