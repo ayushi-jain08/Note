@@ -5,7 +5,7 @@ const NoteContainer = ({notes,deleteNote}) => {
   return (
     <>
     <div className="note-container">
-        <h2>Note</h2>
+        <h2>Your Note</h2>
         <div className="note-container_notes custom-scroll">
 
             {notes.length > 0 ? 
